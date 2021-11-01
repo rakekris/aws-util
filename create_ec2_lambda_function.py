@@ -1,6 +1,7 @@
 import os
 import boto3
 
+# Below params needs to be added in the Lambda environment variables
 AMI = os.environ['AMI']
 INSTANCE_TYPE = os.environ['INSTANCE_TYPE']
 KEY_NAME = os.environ['KEY_NAME']
